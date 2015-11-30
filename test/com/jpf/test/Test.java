@@ -6,7 +6,7 @@ public class Test extends GWTTestCase{
 
 	@Override
 	public String getModuleName() {
-		return "";
+		return null;
 	}
 
 }
