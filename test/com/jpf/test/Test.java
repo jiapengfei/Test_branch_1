@@ -1,12 +1,9 @@
 package com.jpf.test;
 
-import com.google.gwt.junit.client.GWTTestCase;
 
-public class Test extends GWTTestCase{
+public class Test{
 
-	@Override
-	public String getModuleName() {
-		return null;
+	public static void main(String[] args){
+		System.out.println(TestMD5.MD5Encode("123456"));
 	}
-
 }
